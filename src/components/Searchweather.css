@@ -1,0 +1,84 @@
+
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Outfit', 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-image: url('https://source.unsplash.com/1400x800/?rain');
+  background-repeat: no-repeat;
+}
+
+p {
+  font-size: 2rem;
+}
+
+h1 {
+  font-size: 4rem;
+}
+
+
+
+.input {
+  padding: .7rem 1.5rem;
+  font-size: 1.2rem;
+  border-radius: 25px;
+  border: 3px solid rgb(0, 3, 77);
+  /* background: rgba(101, 13, 13, 0.1); */
+  /* color: #f8f8f8; */
+}
+
+/* ::placeholder {
+  color: #ffffff;
+} */
+
+.container {
+  max-width: 90%;
+  height: 70px;
+  margin: auto;
+  padding: 0 1rem;
+  position: relative;
+  top: 10%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.top {
+  width: 100%;
+  margin: 1rem auto;
+}
+
+ /* .description {
+  position: relative;
+  right: -90%;
+  transform-origin: 0 0;
+  transform: rotate(269deg);
+} */
+
+bottom {
+  display: flex;
+  justify-content: space-evenly;
+  text-align: center;
+  width: 100%;
+  margin: 1rem auto;
+  padding: 1rem;
+  border-radius: 12px;
+  background-color: rgba(255,255,255, 0.2);
+}
+
+.bold {
+  font-weight: 700;
+}
+
+body{
+  background-color: rgb(117, 117, 117);
+}
+
+
